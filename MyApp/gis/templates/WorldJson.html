@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
-    <script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
-    <script src="{{ url_for('static', filename='test0.js') }}"></script>
+    <link rel="shortcut icon" href="">
+
+    <!--<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" /> -->
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+    <!--<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script> -->
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+
+<!--    <script src="{{ url_for('static', filename='test0.js') }}"></script> -->
 
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='flipclock_altered.css') }}">
+   <!-- <link rel="stylesheet" href="{{ url_for('static', filename='flipclock_altered.css') }}">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='flipclock.js') }}"></script>
+    <script src="{{ url_for('static', filename='flipclock.js') }}"></script> -->
+
+
     <!-- this style is for bokeh 0.12.13--><style>
   html {
     width: 100%;
@@ -32,7 +39,7 @@
     </style>
 
 </head>
-<body onLoad="displayClock();">
+<body>
 
 
     <h1>Hello Bokeh!</h1>
@@ -47,7 +54,7 @@
 
      <!--   <div class="clock" style="margin:2em;"></div> -->
 
-    <script src="{{ url_for('static', filename='my.js') }}"></script>
+    <!--<script src="{{ url_for('static', filename='my.js') }}"></script> -->
     <script src="{{ url_for('static', filename='canvas.js') }}"></script>
 
 

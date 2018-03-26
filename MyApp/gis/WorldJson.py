@@ -32,7 +32,7 @@ url = "http://www.colors.commutercreative.com/"
 
 figPatch.add_tools(create_hover_tool_india())
 
-#add points to map:
+# add points to map:
 
 temp_points = gpd.read_file('./data/ne_110m_populated_places.json')
 points = returnCircle(temp_points)
@@ -91,7 +91,6 @@ def create_pop_up():  # remember bokPatch is the source here which is ColumnData
 figPatch.add_tools(create_hover_tool_points())
 figPatch.add_tools(create_pop_up())
 
-def sampleFunct():
-    print("executed")
+
 
 

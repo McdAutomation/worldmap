@@ -1,5 +1,5 @@
-var hr = 9;
-var min = 17;
+var hr = 13;
+var min = 50;
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
